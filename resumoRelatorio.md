@@ -1,4 +1,4 @@
-# Resumo do Relatório - Benchmark dos Apps das Igrejas
+# Resumo do Relatório
 
 ## Objetivo do resumo
 Este relatório identifica:
