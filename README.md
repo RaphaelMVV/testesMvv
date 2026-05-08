@@ -14,6 +14,7 @@ Este repositório centraliza evidências e relatórios de teste dos sistemas do 
 - Pastas, imagens técnicas e relatórios Markdown usam `snake_case`: `testes_app_portal_aluno`, `login_app_portal_aluno.jpeg`, `relatorio_de_testes_app_alumni_2026-04-14.md`
 - As pastas de sistema usam o prefixo `testes_` para não confundir com os repositórios originais dos aplicativos.
 - PDFs podem usar nome legível, com espaço e letra maiúscula: `Relatório de Testes App Alumni - 2026-04-14.pdf`
+- Imagens sensíveis de login ficam apenas localmente em `imagens_login_local/` e não são enviadas para o GitHub.
 
 ## Estrutura
 
@@ -33,6 +34,8 @@ Dentro de cada sistema:
 - o período completo do teste, incluindo data inicial e data final, deve ficar descrito dentro do relatório
 
 Modelos reutilizáveis ficam na pasta `modelos/`.
+
+Imagens de login dos aplicativos devem ficar em `imagens_login_local/`. Essa pasta é ignorada pelo Git por segurança.
 
 ## Exemplo
 
