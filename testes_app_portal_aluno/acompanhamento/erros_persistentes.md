@@ -42,3 +42,10 @@ Quando um problema for confirmado como corrigido, ele deve ser removido deste ar
 - Descrição: no formulário de endereço, alguns caracteres especiais não são aceitos. Ao tentar preencher com "ç", por exemplo, o campo não permite inserir o caractere.
 - Impacto: pode impedir o preenchimento correto de nomes de ruas, bairros e cidades.
 - Resultado esperado: campos de endereço devem aceitar caracteres especiais comuns em nomes próprios e endereços, como "ç" e acentos.
+
+### PORTAL-015 - Validar envio de resumo com espaçamento inicial em cada parágrafo
+
+- Origem: solicitação recebida em 2026-05-12 após ajustes realizados no fluxo de resumos.
+- Status: pendente de validação.
+- Descrição: testar o envio de um resumo seguindo o padrão de espaçamento inicial em cada parágrafo, para confirmar se o novo comportamento da contagem de caracteres e do salvamento está funcionando corretamente.
+- Resultado esperado: o resumo deve ser salvo e enviado corretamente, sem contabilizar indevidamente os espaços adicionados pelo botão de parágrafo e sem prejudicar a experiência do aluno.

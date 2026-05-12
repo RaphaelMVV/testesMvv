@@ -40,3 +40,31 @@ Quando um problema for confirmado como corrigido durante uma nova rodada de test
 - Correção confirmada: retorno posterior enviado no Telegram.
 - Descrição original: na edição do perfil, ao rolar a tela até os campos inferiores, o botão de salvar ficava em cima dos campos e atrapalhava o preenchimento.
 - Resultado atual informado: o botão de salvar ficou melhor fixado na parte de baixo da tela e não atrapalha mais a visualização nem o preenchimento do formulário.
+
+### PORTAL-011 - Opção "não justificável" ajustada por tipo de escola
+
+- Origem: atualização informada em 2026-05-12.
+- Correção informada: a opção "não justificável" foi desabilitada nas justificativas do Rhema e EBVV.
+- Descrição original: a opção precisava ficar disponível apenas para Missões e Escola de Ministros.
+- Resultado atual informado: a opção "não justificável" permanece disponível somente para Missões e Escola de Ministros.
+
+### PORTAL-012 - Contagem de caracteres dos resumos ajustada ao usar parágrafo
+
+- Origem: atualização informada em 2026-05-12.
+- Correção informada: os espaços adicionados pelo botão de parágrafo não são mais contabilizados indevidamente no contador de caracteres.
+- Descrição original: anteriormente, ao clicar no botão de parágrafo, os espaços adicionados eram considerados na contagem de caracteres.
+- Resultado atual informado: a contagem de caracteres ignora esses espaços adicionados pelo botão de parágrafo.
+
+### PORTAL-013 - Tela de justificativas recebeu ajustes de tamanho e layout
+
+- Origem: atualização informada em 2026-05-12.
+- Correção informada: foram realizados ajustes de tamanho e layout na tela de justificativas.
+- Descrição original: a tela precisava de ajustes visuais para melhorar apresentação e usabilidade.
+- Resultado atual informado: a tela de justificativas recebeu melhorias de tamanho e layout.
+
+### PORTAL-014 - Verificador de digitação adicionado ao salvamento do texto
+
+- Origem: atualização informada em 2026-05-12.
+- Correção informada: foi adicionado um verificador de digitação para indicar ao aluno quando o texto está sendo salvo.
+- Descrição original: o processo de salvamento do texto precisava ficar mais claro e intuitivo para o aluno.
+- Resultado atual informado: o aluno passa a visualizar quando o texto está sendo salvo, deixando o processo mais claro.
