@@ -68,3 +68,17 @@ Quando um problema for confirmado como corrigido durante uma nova rodada de test
 - Correção informada: foi adicionado um verificador de digitação para indicar ao aluno quando o texto está sendo salvo.
 - Descrição original: o processo de salvamento do texto precisava ficar mais claro e intuitivo para o aluno.
 - Resultado atual informado: o aluno passa a visualizar quando o texto está sendo salvo, deixando o processo mais claro.
+
+### PORTAL-009 - Datas da seção Financeiro apareciam com formato de código em japonês e francês
+
+- Origem: novo erro relatado após o relatório de 2026-04-08.
+- Correção confirmada: validação realizada em 2026-05-13 na versão 1.0.28 build 58.
+- Descrição original: nos idiomas japonês e francês, as datas da seção Financeiro apareciam com letras, como se estivesse sendo exibido o formato do código.
+- Resultado atual informado: as datas da seção Financeiro foram corrigidas e não aparecem mais em formato de código.
+
+### PORTAL-010 - Formulário de endereço não aceitava alguns caracteres especiais
+
+- Origem: novo erro relatado após o relatório de 2026-04-08.
+- Correção confirmada: validação realizada em 2026-05-13 na versão 1.0.28 build 58.
+- Descrição original: no formulário de endereço, alguns caracteres especiais, como "ç", não eram aceitos.
+- Resultado atual informado: os campos de endereço estão aceitando caracteres especiais corretamente.
